@@ -9,7 +9,7 @@ const Navigation = () => {
         <a
           key={item}
           href={`#${item.toLowerCase()}`}
-          className="menu-item text-gray-800 hover:text-gray-600 transition-colors duration-300 text-xl relative group"
+          className="menu-item text-white transition-colors duration-300 text-xl relative group"
         >
           {item}
           <svg

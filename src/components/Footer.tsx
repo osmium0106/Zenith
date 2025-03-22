@@ -1,16 +1,20 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter, Camera } from 'lucide-react';
+import SocialButtons from './SocialButtons';
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-black py-12">
+    <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
+          <div style={{ marginTop: '-60px' }}>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/assets/images/logo.png" alt="Zenith Logo" className="h-24 w-24" />
+              <img
+                src="/assets/images/logo.png"
+                alt="Zenith Logo"
+                className="h-48 w-48"
+              />
             </div>
-            <p className="text-gray-600">
+            <p className="text-gray-400" style={{ marginTop: '-20px' }}>
               Capturing life's precious moments with artistic excellence and professional expertise.
             </p>
           </div>
@@ -37,21 +41,11 @@ const Footer = () => {
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Instagram />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Facebook />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <Twitter />
-              </a>
-            </div>
+            <SocialButtons />
           </div>
         </div>
         
-        <div className="border-t border-gray-300 mt-8 pt-8 text-center text-gray-600">
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} Zenith Production. All rights reserved.</p>
         </div>
       </div>
