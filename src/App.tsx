@@ -7,6 +7,7 @@ import About from './components/About.tsx';
 import Services from './components/Services.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
+import Introduction from './components/Introduction.tsx';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -42,6 +43,7 @@ function App() {
 
       <main>
         <Hero />
+        <Introduction />
         <Portfolio />
         <About />
         <Services />
