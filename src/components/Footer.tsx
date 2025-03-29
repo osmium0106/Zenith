@@ -30,12 +30,12 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Portfolio</h3>
             <ul className="space-y-2">
-              <li className="text-gray-400">Wedding Photography</li>
-              <li className="text-gray-400">Portrait Sessions</li>
-              <li className="text-gray-400">Commercial Photography</li>
-              <li className="text-gray-400">Event Coverage</li>
+              <li><a href="/portfolio/event" className="text-gray-400 hover:text-white">Event Photography</a></li>
+              <li><a href="/portfolio/fashion" className="text-gray-400 hover:text-white">Fashion Photography</a></li>
+              <li><a href="/portfolio/portrait" className="text-gray-400 hover:text-white">Portrait Photography</a></li>
+              <li><a href="/portfolio/product" className="text-gray-400 hover:text-white">Product Photography</a></li>
             </ul>
           </div>
           

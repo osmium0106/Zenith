@@ -8,6 +8,7 @@ import Services from './components/Services.tsx';
 import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import Introduction from './components/Introduction.tsx';
+import BookNowButton from './components/BookNowButton.tsx';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -51,6 +52,7 @@ function App() {
       </main>
 
       <Footer />
+      <BookNowButton />
     </div>
   );
 }
